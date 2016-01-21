@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+
+    <title>PostCSS for everyone</title>
+
+    <style>
+      html, body {
+        background-color: #eee;
+        color: #222;
+        margin: 0;
+        padding: 0;
+      }
+
+      .title {
+        font-family: 'Helvetica Neue', Helvetica,sans-serif;
+        font-weight: bold;
+        font-size: 1.5rem;
+        text-align: center;
+      }
+
+      @media only screen and (min-width : 30rem) {
+        .title {
+          font-size: 2rem;
+          text-align: center;
+        }
+      }
+      @media only screen and (min-width: 48rem) {
+        .title {
+          font-size: 3rem;
+          text-align: left;
+          padding-left: 1rem;
+        }
+      }
+      @media only screen and (min-width: 60rem) {
+        .title {
+          font-size: 4.8rem;
+          text-align: left;
+          padding-left: 1rem;
+        }
+      }
+      @media only screen and (min-width: 80rem) {
+        .title {
+          font-size: 6rem;
+          text-align: left;
+          padding-left: 2rem;
+        }
+      }
+      @media only screen and (min-width: 100rem) {
+        .title {
+          font-size: 8rem;
+          text-align: left;
+          padding-left: 3rem;
+        }
+      }
+      @media only screen and (min-width: 120rem) {
+        .title {
+          font-size: 10rem;
+          text-align: left;
+          padding-left: 3rem;
+        }
+      }
+      @media only screen and (min-width: 150rem) {
+        .title {
+          font-size: 12rem;
+          text-align: left;
+          padding-left: 3rem;
+        }
+      }
+
+
+    @media (min-width: 1250px) {
+      .artifacts {
+        display: flex;
+        alighn-items: center;
+        justify-content: space-around;
+      }
+    }
+
+      .artifact {
+        margin: 0 auto;
+        width: 600px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <main id="main">
+      <header class="header">
+        <h1 class="title">PostCSS for Everyone</h1>
+      </header>
+
+      <section class="artifacts">
+        <article id="video" class="artifact video">
+          <iframe width="600" height="337" src="https://www.youtube.com/embed/sgiKZhoQCMc" frameborder="0" allowfullscreen></iframe>
+        </article>
+
+        <article id="slides" class="artifact slides">
+          <script async class="speakerdeck-embed" data-id="dbc31a61229b4c39a41796dd0e942896" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
+        </article>
+      </section><!-- / artifacts -->
+    </main>
+  </body>
+</html>
+
+
